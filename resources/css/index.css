@@ -1,0 +1,15 @@
+/* Universal Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #13072e;
+}
