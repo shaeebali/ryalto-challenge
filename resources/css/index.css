@@ -68,6 +68,24 @@ body {
   background-color: #b3aaff;
   border-radius: 25px;
   margin-top: 4rem;
-  margin-left: 2rem;
+  margin-left: 2.5rem;
   font-size: 1.25rem;
+  color: black;
+}
+
+.hero-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2.5rem;
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+
+.hero-description {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2.5em;
+  margin-right: 2rem;
+  font-size: 1.125rem;
+  width: 40%;
 }
