@@ -146,11 +146,14 @@ a:hover {
 
 .blog-cards {
   max-width: 100%;
+  margin-top: 2rem;
 }
 
 .card-section-one {
   display: flex;
   align-items: center;
+  width: 75%;
+  height: auto;
 }
 .card-section-two {
   display: flex;
@@ -168,13 +171,30 @@ a:hover {
 .card-one {
   background: linear-gradient(135deg, #13072e, #3f2182);
   border-radius: 20px;
-  max-width: 50%;
+  width: 50%;
+}
+.card-two {
+  background: linear-gradient(135deg, #13072e, #3f2182);
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 1rem;
 }
 
 .philhashtag {
   background-color: #b3aaff;
   border-radius: 25px;
-  margin: 2rem 2rem;
+  margin: 1rem 2rem;
   font-size: 1.25rem;
   color: black;
+}
+
+.card-title h2 {
+  margin: 2rem 2rem;
+  font-size: 0.5rem;
+  padding: 0;
+}
+
+.card-description {
+  margin: 2rem 2rem;
+
 }
