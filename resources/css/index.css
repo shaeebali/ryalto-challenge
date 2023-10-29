@@ -11,9 +11,13 @@ html {
   font-size: 16px;
 }
 
+body {
+  width: 100%;
+  background-color: #13072e;
+}
+
 header {
   display: flex;
-  /* width: 100%; */
 }
 
 header h1 {
@@ -36,8 +40,9 @@ img {
 
 ul {
   list-style: none;
-  margin-left: 11rem;
-  margin-right: 0;
+  /* margin-left: 11rem; */
+  margin-right: 1rem;
+  margin-top: 0.5rem;
 }
 
 li {
@@ -51,23 +56,25 @@ li {
 li a {
   text-decoration: none;
   cursor: pointer;
+  
 }
 
-body {
-  background-color: #13072e;
+a:hover {
+  color: yellow;
 }
 
 .hero {
-  height: 35rem;
+  height: 40rem;
   background: linear-gradient(135deg, #13072e, #3f2182);
-  margin: 4rem 2rem;
+  margin: 2rem 2rem;
   border-radius: 20px;
+  display: flex;
 }
 
 .ryaltohashtag {
   background-color: #b3aaff;
   border-radius: 25px;
-  margin-top: 4rem;
+  margin-top: 6rem;
   margin-left: 2.5rem;
   font-size: 1.25rem;
   color: black;
@@ -78,14 +85,96 @@ body {
   margin-bottom: 2rem;
   margin-left: 2.5rem;
   margin-right: 2rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  width: 100%;
 }
 
 .hero-description {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-left: 2.5em;
+  margin-left: 2.8125rem;
   margin-right: 2rem;
   font-size: 1.125rem;
-  width: 40%;
+  width: 93%;
+}
+
+.hero article {
+  width: 100%;
+  margin: 0;
+}
+
+.hero aside {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-splash-image {
+  width: 72%;
+  height: auto;
+  margin-left: 0;
+}
+
+.arrow-icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 2.8125rem;
+
+}
+
+.cards-hero {
+  height: 40rem;
+  background: linear-gradient(135deg, #13072e, #3f2182);
+  margin: 2rem 2rem;
+  border-radius: 20px;
+}
+
+.cards-hero h2 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  margin-left: 2rem;
+}
+
+.cards-hero h2 span {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  font-weight: 200;
+}
+
+.blog-cards {
+  max-width: 100%;
+}
+
+.card-section-one {
+  display: flex;
+  align-items: center;
+}
+.card-section-two {
+  display: flex;
+  align-items: center;
+}
+.card-section-three {
+  display: flex;
+  align-items: center;
+}
+.card-section-four {
+  display: flex;
+  align-items: center;
+}
+
+.card-one {
+  background: linear-gradient(135deg, #13072e, #3f2182);
+  border-radius: 20px;
+  max-width: 50%;
+}
+
+.philhashtag {
+  background-color: #b3aaff;
+  border-radius: 25px;
+  margin: 2rem 2rem;
+  font-size: 1.25rem;
+  color: black;
 }
