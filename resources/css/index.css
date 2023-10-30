@@ -125,7 +125,7 @@ a:hover {
 }
 
 .cards-hero {
-  height: 40rem;
+  height: 107rem;
   background: linear-gradient(135deg, #13072e, #3f2182);
   margin: 2rem 2rem;
   border-radius: 20px;
@@ -147,37 +147,62 @@ a:hover {
 .blog-cards {
   max-width: 100%;
   margin-top: 2rem;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 .card-section-one {
   display: flex;
-  align-items: center;
-  width: 75%;
+  flex-direction: row;
+  width: 80%;
   height: auto;
+  margin-bottom: 2rem;
 }
 .card-section-two {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  height: auto;
+  margin-bottom: 2rem;
 }
 .card-section-three {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  height: auto;
+  margin-bottom: 2rem;
 }
 .card-section-four {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  height: auto;
+  margin-bottom: 2rem;
 }
 
 .card-one {
   background: linear-gradient(135deg, #13072e, #3f2182);
   border-radius: 20px;
   width: 50%;
+  margin-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-one h2 {
+  margin-top: auto;
 }
 .card-two {
   background: linear-gradient(135deg, #13072e, #3f2182);
   border-radius: 20px;
   width: 50%;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-two h2 {
+  margin-top: auto;
 }
 
 .philhashtag {
@@ -188,13 +213,86 @@ a:hover {
   color: black;
 }
 
-.card-title h2 {
-  margin: 2rem 2rem;
+.card-title {
   font-size: 0.5rem;
-  padding: 0;
+  margin-top: auto;
 }
 
 .card-description {
   margin: 2rem 2rem;
+}
 
+.card-three {
+  background: linear-gradient(135deg, #13072e, #3f2182);
+  border-radius: 20px;
+  width: 50%;
+  margin-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-three h2 {
+  margin-top: auto;
+}
+.card-four {
+  background: linear-gradient(135deg, #13072e, #3f2182);
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-four h2 {
+  margin-top: auto;
+}
+
+.card-five {
+  background: linear-gradient(135deg, #13072e, #3f2182);
+  border-radius: 20px;
+  width: 50%;
+  margin-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-five h2 {
+  margin-top: auto;
+}
+.card-six {
+  background: linear-gradient(135deg, #13072e, #3f2182);
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-six h2 {
+  margin-top: auto;
+}
+
+.card-seven {
+  background: linear-gradient(135deg, #13072e, #3f2182);
+  border-radius: 20px;
+  width: 50%;
+  margin-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-seven h2 {
+  margin-top: auto;
+}
+.card-eight {
+  background: linear-gradient(135deg, #13072e, #3f2182);
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-eight h2 {
+  margin-top: auto;
 }
