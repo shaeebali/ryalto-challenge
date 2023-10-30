@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  width: 100%;
+  min-width: 50%;
   background-color: #13072e;
 }
 
@@ -125,7 +125,7 @@ a:hover {
 }
 
 .cards-hero {
-  height: 107rem;
+  height: auto;
   background: linear-gradient(135deg, #13072e, #3f2182);
   margin: 2rem 2rem;
   border-radius: 20px;
@@ -147,6 +147,7 @@ a:hover {
 .blog-cards {
   max-width: 100%;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   /* display: flex;
   flex-direction: row; */
 }
@@ -277,6 +278,7 @@ a:hover {
   border-radius: 20px;
   width: 50%;
   margin-right: 0.5rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -289,6 +291,7 @@ a:hover {
   border-radius: 20px;
   width: 50%;
   margin-left: 0.5rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   flex: 1;
