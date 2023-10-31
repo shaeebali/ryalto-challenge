@@ -12,8 +12,13 @@ html {
 }
 
 body {
-  min-width: 50%;
+  width: 100%;
   background-color: #13072e;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 header {
@@ -54,8 +59,8 @@ li {
 }
 
 li a {
-  text-decoration: none;
-  cursor: pointer;
+  /* text-decoration: none;
+  cursor: pointer; */
   
 }
 
@@ -109,6 +114,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .hero-splash-image {
@@ -147,7 +153,7 @@ a:hover {
 .blog-cards {
   max-width: 100%;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   /* display: flex;
   flex-direction: row; */
 }
@@ -178,7 +184,7 @@ a:hover {
   flex-direction: row;
   width: 80%;
   height: auto;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .card-one {
@@ -299,3 +305,81 @@ a:hover {
 .card-eight h2 {
   margin-top: auto;
 }
+
+.footer {
+  height: 30rem;
+  background-color: white;
+  border-radius: 25px;
+  margin: 0 2rem;
+}
+
+.footer-image-input {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-sec-two {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.embed-submit-field {
+  position: relative;
+}  
+  
+  input {
+    width: 30%;
+    padding: 15px;
+    margin-left: 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: #13072e;
+  }
+
+  ::placeholder {
+    color: #13072e;
+  }
+
+  .submit-btn {
+    position: absolute;
+    right: 370px;
+    top: 8px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    background-color: #13072e;
+    margin-left: 0.5rem;
+  }
+  
+  .footer-sec-two h2, .footer-sec-two p {
+    color: #13072e;
+    font-size: 1rem;
+  }
+
+  .border-bottom {
+    border-bottom: 2px solid black;
+    margin: 2rem 4rem;
+  }
+
+  .rights-reserved-one {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rights-reserved-one p {
+    color: #13072e;
+  }
+
+#chevron {
+  font-size: 1.5rem;
+  border-radius: 50px;
+  background: #13072e;
+  color: white;
+  padding: 0 0.6rem;
+}
+

@@ -11,10 +11,10 @@
 </head>
 <body>
   <header>
-    <img class="logo" src="resources\images\ryalto-logo-lg.png" alt="company logo">
+    <img class="logo" id="ryalto" src="resources\images\ryalto-logo-lg.png" alt="company logo">
     <h1>Developer Page</h1>
     <ul>
-      <li><a href="https://developer.ryalto.group/">Blog</a></li>
+      <li><a href="#blog-start">Blog</a></li>
       <li><a href="https://developer.ryalto.group/team">Our Team</a></li>
       <li><a href="https://developer.ryalto.group/careers">Careers</a></li>
     </ul>
@@ -25,7 +25,8 @@
       <button class="ryaltohashtag">#ryaltodevelopers</button>
       <h2 class="hero-title">Welcome to our developer page</h2>
       <p class="hero-description">We're really proud of our Tech Team here at Ryalto. This is a page for us to share what we're getting up to in the background! Gary, please can you think of some better words to put here!</p>
-      <img class="arrow-icon" src="./resources/images/icons8-down-arrow-64.png" alt="down arrow icon">
+      <a href="#chevron">
+      <img class="arrow-icon" src="./resources/images/icons8-down-arrow-64.png" alt="down arrow icon"></a>
     </article>
     <aside>
       <img class="hero-splash-image" src="./resources/images/keyboard-hero.png" alt="keyboard">
@@ -33,7 +34,7 @@
    
   </section>
   <section class="cards-hero">
-    <h2>Developer Blog<span> see our team’s latest blog posts below!</span></h2>
+    <h2 id="blog-start">Developer Blog<span> see our team’s latest blog posts below!</span></h2>
     <section class="blog-cards">
       <div class="card-section-one"> 
         <div class="card-one">
@@ -86,6 +87,59 @@
     </section>
   </section>
   
-  <footer>Footer</footer>
+  <footer class="footer">
+   <div class="container-footer-top"> 
+    <div class="footer-sec-one">
+        
+        <div class="footer-image-input">
+          <img class="logo" src="resources\images\ryalto-logo-lg.png" alt="company logo">
+          <div class="footer-container">
+            <form action="submit">
+              <div class="embed-submit-field"> 
+                <input type="text" placeholder="Enter your email">
+                <button class="submit-btn" type="submit">-></button>
+              </div>   
+            </form>
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer-sec-two">
+      <div class="footer-title-one">
+        <h2>Company</h2>
+        <p>Home</p>
+        <p>About</p>
+        <p>Solutions</p>
+        <p>Pricing</p>
+        <p>Team</p>
+        <p>Career</p>
+      </div>    
+      <div class="footer-title-two">
+        <h2>Documentation</h2>
+        <p>Help Centre</p>
+        <p>Contact</p>
+        <p>FAQ</p>
+        <p>Privacy Policy</p>
+      </div>    
+      <div class="footer-title-three">
+        <h2>Social</h2>
+        <p>LinkedIn</p>
+        <p>GitHub</p>
+        <p>Twitter</p>
+      </div>    
+    </div>
+   </div>
+   <div class="container-footer-bottom">
+    <div class="border-bottom">
+    </div>
+    <div class="rights-reserved">
+     <div class="rights-reserved-one">
+      <p>&#169; Ryalto. All Rights Reserved</p>
+      <p>Terms & Conditions</p>
+      <p id="chevron"><a href="#ryalto"> ^ </a></p>
+     </div>
+    </div>
+   </div>   
+  </footer>
 </body>
 </html>
