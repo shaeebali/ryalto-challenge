@@ -60,12 +60,6 @@ li {
   font-size: 1.25rem;
 }
 
-li a {
-  /* text-decoration: none;
-  cursor: pointer; */
-  
-}
-
 a:hover {
   color: yellow;
 }
@@ -158,6 +152,44 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   
+  .hero {
+    flex-flow: column; 
+  }
+
+  .ryaltohashtag {
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .hero-description {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    font-size: 1rem;
+    width: 85%;
+    text-align: center;
+  }
+  
+  .hero-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1.8rem;
+    width: 98%;
+    text-align: center;
+ }
+
+ .arrow-icon {
+  display: none;
+ }
+
+ .hero aside {
+  margin-bottom: 4rem; 
+ }
+
 }
 
 /* Blog cards section */
@@ -167,6 +199,10 @@ a:hover {
   background: linear-gradient(135deg, #13072e, #3f2182);
   margin: 2rem 2rem;
   border-radius: 20px;
+}
+
+#blog-start {
+  text-align: center;
 }
 
 .cards-hero h2 {
@@ -228,6 +264,10 @@ a:hover {
   flex-direction: column;
   flex: 1;
 }
+.card-one:hover {
+  box-shadow: 1px 8px 20px grey;
+  -webkit-transition:  box-shadow .6s ease-in;
+}
 .card-one h2 {
   margin-top: auto;
 }
@@ -240,6 +280,11 @@ a:hover {
   flex-direction: column;
   flex: 1;
 }
+.card-two:hover {
+  box-shadow: 1px 8px 20px grey;
+  -webkit-transition:  box-shadow .6s ease-in;
+}
+
 .card-two h2 {
   margin-top: auto;
 }
@@ -270,6 +315,10 @@ a:hover {
   flex-direction: column;
   flex: 1;
 }
+.card-three:hover {
+  box-shadow: 1px 8px 20px grey;
+  -webkit-transition:  box-shadow .6s ease-in;
+}
 .card-three h2 {
   margin-top: auto;
 }
@@ -281,6 +330,10 @@ a:hover {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+.card-four:hover {
+  box-shadow: 1px 8px 20px grey;
+  -webkit-transition:  box-shadow .6s ease-in;
 }
 .card-four h2 {
   margin-top: auto;
@@ -295,6 +348,10 @@ a:hover {
   flex-direction: column;
   flex: 1;
 }
+.card-five:hover {
+  box-shadow: 1px 8px 20px grey;
+  -webkit-transition:  box-shadow .6s ease-in;
+}
 .card-five h2 {
   margin-top: auto;
 }
@@ -306,6 +363,10 @@ a:hover {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+.card-six:hover {
+  box-shadow: 1px 8px 20px grey;
+  -webkit-transition:  box-shadow .6s ease-in;
 }
 .card-six h2 {
   margin-top: auto;
@@ -321,6 +382,10 @@ a:hover {
   flex-direction: column;
   flex: 1;
 }
+.card-seven:hover {
+  box-shadow: 1px 8px 20px grey;
+  -webkit-transition:  box-shadow .6s ease-in;
+}
 .card-seven h2 {
   margin-top: auto;
 }
@@ -334,8 +399,133 @@ a:hover {
   flex-direction: column;
   flex: 1;
 }
+.card-eight:hover {
+  box-shadow: 1px 8px 20px grey;
+  -webkit-transition:  box-shadow .6s ease-in;
+}
 .card-eight h2 {
   margin-top: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards-hero {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .cards-hero h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 0.5rem;
+  }
+  .card-description {
+    text-align: center;
+  }
+
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-section-one {
+    flex-flow: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-one {
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .card-two {
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .card-section-two {
+    flex-flow: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-three {
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .card-four {
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .card-section-three {
+    flex-flow: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-five {
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .card-six {
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .card-section-four {
+    flex-flow: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-seven {
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .card-eight {
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
 }
 
 /* Footer section  */
@@ -417,3 +607,11 @@ a:hover {
   padding: 0 0.6rem;
 }
 
+@media only screen and (max-width: 600px) {
+  input {
+    width: 50%;
+  }
+  .submit-btn {
+    right: 130px;
+  }
+}
